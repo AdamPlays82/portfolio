@@ -12,3 +12,21 @@
     font-weight: bold;
 }
 
+.dd {
+    font-family: 'Lato', sans-serif;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-top: 70px;
+    margin-right: auto;
+    width: 50%;
+}
+
+.figure-caption {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: black;
+}
