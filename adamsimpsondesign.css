@@ -1,6 +1,8 @@
 .navbar {
     font-family: 'Comfortaa', cursive;
     background-color: white;
+    border-bottom: solid;
+    border-bottom-color: darkgrey;
 }
 
 .jumbotron {
