@@ -32,3 +32,17 @@
     font-weight: bold;
     color: black;
 }
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 170px;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+i {
+    font-size: 30px;
+    color: white;
+
+}
