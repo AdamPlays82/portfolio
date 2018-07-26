@@ -1,13 +1,42 @@
 .navbar {
     font-family: 'Comfortaa', cursive;
     background-color: white;
-    border-bottom: solid;
-    border-bottom-color: lightgrey;
+    
 }
 
-.jumbotron {
-    font-family: 'Comfortaa', cursive;
+body, html {
+    height: 100%;
 }
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("hero.jpg");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 85px;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+}
+
+
 
 .card-header {
     font-family: 'Comfortaa', cursive;
